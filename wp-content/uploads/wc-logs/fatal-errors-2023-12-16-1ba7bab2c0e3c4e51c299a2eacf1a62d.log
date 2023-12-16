@@ -1,0 +1,48 @@
+2023-12-16T21:52:41+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\woocommerce/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php:5
+Stack trace:
+#0 C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\premiumSport.php(12): require_once()
+#1 C:\xampp\htdocs\web\PremiumSport\wp-includes\class-wp-hook.php(324): activar_mi_plugin(false)
+#2 C:\xampp\htdocs\web\PremiumSport\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\web\PremiumSport\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\web\PremiumSport\wp-admin\includes\plugin.php(693): do_action('activate_premiu...', false)
+#5 C:\xampp\htdocs\web\PremiumSport\wp-admin\plugins.php(58): activate_plugin('premiumsport/pr...', 'http://localhos...', false)
+#6 {main}
+  thrown en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-16T21:53:07+00:00 CRITICAL Uncaught Error: Failed opening required 'C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\woocommerce/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php:5
+Stack trace:
+#0 C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\premiumSport.php(12): require_once()
+#1 C:\xampp\htdocs\web\PremiumSport\wp-includes\class-wp-hook.php(324): activar_mi_plugin(false)
+#2 C:\xampp\htdocs\web\PremiumSport\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\web\PremiumSport\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\web\PremiumSport\wp-admin\includes\plugin.php(693): do_action('activate_premiu...', false)
+#5 C:\xampp\htdocs\web\PremiumSport\wp-admin\plugins.php(58): activate_plugin('premiumsport/pr...', 'http://localhos...', false)
+#6 {main}
+  thrown en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-16T22:02:06+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\config.php en la línea 9
+
+2023-12-16T22:02:35+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\config.php en la línea 9
+
+2023-12-16T22:03:10+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\config.php en la línea 9
+
+2023-12-16T22:05:30+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\config.php en la línea 9
+
+2023-12-16T22:06:09+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\config.php en la línea 9
+
+2023-12-16T22:06:30+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\config.php en la línea 9
+
+2023-12-16T22:06:43+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\config.php en la línea 9
+
+2023-12-16T22:07:01+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\config.php en la línea 9
+
+2023-12-16T22:07:18+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\config.php en la línea 9
+
+2023-12-16T22:08:24+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\config.php en la línea 9
+
+2023-12-16T22:08:39+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\config.php en la línea 9
+
+2023-12-16T22:17:31+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\config.php en la línea 9
+
+2023-12-16T22:17:49+00:00 CRITICAL syntax error, unexpected end of file en C:\xampp\htdocs\web\PremiumSport\wp-content\plugins\premiumsport\config.php en la línea 9
+

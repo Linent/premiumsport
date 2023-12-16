@@ -41,4 +41,3 @@ function obtener_productos_desde_api_externo() {
     $productos_api = json_decode(wp_remote_retrieve_body($response), true);
     return $productos_api;
 }
-?>

@@ -1,5 +1,5 @@
 <?php
-
+require_once(plugin_dir_path(__FILE__) . '../config.php');
 // Incluir archivos necesarios
 require_once(plugin_dir_path(__FILE__) . '../api/funciones-api.php'); // Para obtener datos del API externo
 require __DIR__ . '/vendor/autoload.php';
@@ -122,4 +122,3 @@ function actualizar_producto_especifico($producto_id, $nuevos_datos) {
 add_action('woocommerce_order_status_completed', 'enviar_datos_de_compra_a_api_externa');
 // Llamar a la función para actualizar el inventario
 actualizar_inventario_desde_api_externa();
-?>
