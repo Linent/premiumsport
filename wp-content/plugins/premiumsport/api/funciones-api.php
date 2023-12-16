@@ -5,7 +5,7 @@
 require_once(plugin_dir_path(__FILE__) . '../config.php');
 
 function enviar_solicitud_a_api_externa($datos) {
-    global $api_url, $consumer_key, $consumer_secret, $api_key;
+    //global $api_url, $consumer_key, $consumer_secret, $api_key;
 
     $url_api = $api_url . '/Productos'; // Usar la ruta base de la API desde la configuración
     
@@ -20,7 +20,7 @@ function enviar_solicitud_a_api_externa($datos) {
     // ...
 }
 function obtener_productos_desde_api_externo() {
-    global $api_url, $consumer_key, $consumer_secret;
+    //global $api_url, $consumer_key, $consumer_secret;
 
     $url_api = $api_url . '/Productos'; // Usar la ruta base de la API desde la configuración
     
@@ -31,7 +31,7 @@ function obtener_productos_desde_api_externo() {
         )
     );
 
-    $response = wp_remote_get($url_api, $args);
+    $response = wp_remote_get($url_api);
 
     if (is_wp_error($response)) {
         // Manejar errores si la solicitud falla

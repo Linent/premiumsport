@@ -1,0 +1,17 @@
+{
+    "name": "kumo/premiumsport",
+    "autoload": {
+        "psr-4": {
+            "Kumo\\Premiumsport\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Anderson",
+            "email": "andersoneduardoop@ufps.edu.co"
+        }
+    ],
+    "require": {
+        "automattic/woocommerce": "^3.0"
+    }
+}
