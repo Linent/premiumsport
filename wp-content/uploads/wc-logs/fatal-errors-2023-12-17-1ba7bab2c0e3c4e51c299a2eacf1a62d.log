@@ -1,0 +1,44 @@
+2023-12-17T02:47:07+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T02:52:01+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T02:52:17+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T03:00:15+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T03:09:43+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T03:11:38+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce../vendor/autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T03:13:30+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce../vendor/autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T03:15:51+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce../vendor/autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T03:22:15+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce../vendor/autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T04:47:16+00:00 CRITICAL syntax error, unexpected '(', expecting variable (T_VARIABLE) or '$' en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 8
+
+2023-12-17T04:48:22+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce../vendor/autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T04:52:16+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce../vendor/autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T04:54:01+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce/vendor/autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T04:56:52+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\vendor\autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T05:03:08+00:00 CRITICAL require(): Failed opening required 'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\vendor\autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T05:04:39+00:00 CRITICAL require(): Failed opening required '../vendor/autoload.php' (include_path='C:\xampp\php\PEAR') en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 5
+
+2023-12-17T05:07:38+00:00 CRITICAL Uncaught Error: Call to undefined function obtener_datos_desde_api_externa() in C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php:19
+Stack trace:
+#0 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php(123): actualizar_inventario_desde_api_externa()
+#1 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\premiumSport.php(12): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web\premiumsport\wp-includes\class-wp-hook.php(324): activar_mi_plugin(false)
+#3 C:\xampp\htdocs\web\premiumsport\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\web\premiumsport\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\web\premiumsport\wp-admin\includes\plugin.php(693): do_action('activate_premiu...', false)
+#6 C:\xampp\htdocs\web\premiumsport\wp-admin\plugins.php(58): activate_plugin('premiumsport/pr...', 'http://localhos...', false)
+#7 {main}
+  throw en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 19
+

@@ -8,7 +8,7 @@ Author: Kumo Soft
 
 // Activar el plugin
 function activar_mi_plugin() {
-    //require_once(plugin_dir_path(__FILE__) . './api/funciones-api.php');
+    require_once(plugin_dir_path(__FILE__) . './api/funciones-api.php');
     require_once(plugin_dir_path(__FILE__) . './woocommerce/manejo-woocommerce.php');
 
 }

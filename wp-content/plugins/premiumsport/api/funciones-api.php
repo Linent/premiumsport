@@ -31,7 +31,7 @@ function obtener_productos_desde_api_externo() {
         )
     );
 
-    $response = wp_remote_get($url_api);
+    $response = wp_remote_get($url_api,$args);
 
     if (is_wp_error($response)) {
         // Manejar errores si la solicitud falla

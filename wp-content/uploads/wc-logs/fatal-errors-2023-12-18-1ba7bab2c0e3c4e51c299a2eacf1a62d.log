@@ -1,0 +1,66 @@
+2023-12-18T14:05:01+00:00 CRITICAL Uncaught Error: Call to undefined function obtener_datos_desde_api_externa() in C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php:19
+Stack trace:
+#0 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php(123): actualizar_inventario_desde_api_externa()
+#1 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\premiumSport.php(12): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web\premiumsport\wp-includes\class-wp-hook.php(324): activar_mi_plugin(false)
+#3 C:\xampp\htdocs\web\premiumsport\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\web\premiumsport\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\web\premiumsport\wp-admin\includes\plugin.php(693): do_action('activate_premiu...', false)
+#6 C:\xampp\htdocs\web\premiumsport\wp-admin\plugins.php(58): activate_plugin('premiumsport/pr...', 'http://localhos...', false)
+#7 {main}
+  throw en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 19
+
+2023-12-18T14:53:44+00:00 CRITICAL Uncaught Error: Call to undefined function obtener_datos_desde_api_externa() in C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php:19
+Stack trace:
+#0 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php(123): actualizar_inventario_desde_api_externa()
+#1 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\premiumSport.php(12): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web\premiumsport\wp-includes\class-wp-hook.php(324): activar_mi_plugin(false)
+#3 C:\xampp\htdocs\web\premiumsport\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\web\premiumsport\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\web\premiumsport\wp-admin\includes\plugin.php(693): do_action('activate_premiu...', false)
+#6 C:\xampp\htdocs\web\premiumsport\wp-admin\plugins.php(58): activate_plugin('premiumsport/pr...', 'http://localhos...', false)
+#7 {main}
+  throw en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 19
+
+2023-12-18T15:00:54+00:00 CRITICAL Uncaught Error: Call to undefined function obtener_datos_desde_api_externa() in C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php:19
+Stack trace:
+#0 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php(123): actualizar_inventario_desde_api_externa()
+#1 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\premiumSport.php(12): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web\premiumsport\wp-includes\class-wp-hook.php(324): activar_mi_plugin(false)
+#3 C:\xampp\htdocs\web\premiumsport\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\web\premiumsport\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\web\premiumsport\wp-admin\includes\plugin.php(693): do_action('activate_premiu...', false)
+#6 C:\xampp\htdocs\web\premiumsport\wp-admin\plugins.php(58): activate_plugin('premiumsport/pr...', 'http://localhos...', false)
+#7 {main}
+  throw en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 19
+
+2023-12-18T15:02:15+00:00 CRITICAL Uncaught Error: Call to undefined function obtener_datos_desde_api_externa() in C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php:19
+Stack trace:
+#0 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php(123): actualizar_inventario_desde_api_externa()
+#1 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\premiumSport.php(12): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\web\premiumsport\wp-includes\class-wp-hook.php(324): activar_mi_plugin(false)
+#3 C:\xampp\htdocs\web\premiumsport\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\web\premiumsport\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\web\premiumsport\wp-admin\includes\plugin.php(693): do_action('activate_premiu...', false)
+#6 C:\xampp\htdocs\web\premiumsport\wp-admin\plugins.php(58): activate_plugin('premiumsport/pr...', 'http://localhos...', false)
+#7 {main}
+  throw en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php en la línea 19
+
+2023-12-18T15:09:39+00:00 CRITICAL Uncaught Automattic\WooCommerce\HttpClient\HttpClientException: cURL Error:  in C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php:450
+Stack trace:
+#0 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\vendor\automattic\woocommerce\src\WooCommerce\Client.php(82): Automattic\WooCommerce\HttpClient\HttpClient->request('products/?sku=0...', 'GET', Array, Array)
+#1 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php(43): Automattic\WooCommerce\Client->get('products/?sku=0...')
+#2 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php(173): actualizar_inventario_desde_api_externa()
+#3 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\premiumSport.php(12): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\web\premiumsport\wp-includes\class-wp-hook.php(324): activar_mi_plugin(false)
+#5 C:\xampp\htdocs\web\ en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php en la línea 450
+
+2023-12-18T15:15:20+00:00 CRITICAL Uncaught Automattic\WooCommerce\HttpClient\HttpClientException: cURL Error:  in C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php:450
+Stack trace:
+#0 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\vendor\automattic\woocommerce\src\WooCommerce\Client.php(82): Automattic\WooCommerce\HttpClient\HttpClient->request('products/?sku=0...', 'GET', Array, Array)
+#1 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php(47): Automattic\WooCommerce\Client->get('products/?sku=0...')
+#2 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\woocommerce\manejo-woocommerce.php(177): actualizar_inventario_desde_api_externa()
+#3 C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\premiumSport.php(12): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\web\premiumsport\wp-includes\class-wp-hook.php(324): activar_mi_plugin(false)
+#5 C:\xampp\htdocs\web\ en C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\vendor\automattic\woocommerce\src\WooCommerce\HttpClient\HttpClient.php en la línea 450
+

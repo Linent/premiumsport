@@ -2,57 +2,110 @@
 require_once(plugin_dir_path(__FILE__) . '../config.php');
 // Incluir archivos necesarios
 require_once(plugin_dir_path(__FILE__) . '../api/funciones-api.php'); // Para obtener datos del API externo
-require __DIR__ . '/vendor/autoload.php';
+require  'C:\xampp\htdocs\web\premiumsport\wp-content\plugins\premiumsport\vendor\autoload.php';
 use Automattic\WooCommerce\Client;
 // También, incluir archivos relacionados con WooCommerce según sea necesario
-
 // Función para actualizar el inventario de WooCommerce desde el API externo
+$consumer_key = 'ck_061431c85dae848476f4a707ae6f313f99159abb'; // Consumer Key de la API
+$consumer_secret = 'cs_9a4fd82f79866ac932328f5c9e7445800fc3fd58'; // Consumer Secret de la API
+//$api_key = 'TU_API_KEY'; // Opcional: Otra clave necesaria para la API externa, si es aplicable
+$url_API_woo = 'http://localhost/web/PremiumSport';
 function actualizar_inventario_desde_api_externa() {
     // Instanciar el cliente WooCommerce
     $woocommerce = new Client(
-        $api_url,
+        $url_API_woo,
         $consumer_key,
         $consumer_secret,
         ['version' => 'wc/v3']
     );
     // Obtener productos desde el API externo
     // Obtener los datos de la API externa
-    $datos_api_externa = obtener_datos_desde_api_externa(); // Función personalizada para obtener los datos del API
+    $url_API="https://api-kubaap-u76wkp44oa-uc.a.run.app/productos";
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_URL,$url_API);
+    $items_origin = curl_exec($ch);
+curl_close($ch);
 
-// Obtener todos los productos de WooCommerce
-$productos_woocommerce = wc_get_products(array('status' => 'publish'));
+if ( ! $items_origin ) {
+    exit('❗Error en API origen');
+}
+// ===================
 
-foreach ($datos_api_externo as $dato) {
-    foreach ($productos_woocommerce as $producto) {
-        if ($producto->get_sku() === $dato['CodigoProd']) {
-            // Producto encontrado, obtener su ID para la actualización
-            $producto_id = $producto->get_id();
 
-            // Agregar datos para la actualización en lote
-            $datos_actualizacion[] = [
-                'regular_price' => $dato['PrecioVta'],
-                'stock_quantity' => $dato['Cantidad'],
-                // Otros campos para actualizar según sea necesario
-            ];
-        }
-    }
+// Obtenemos datos de la API de origen
+$items_origin = json_decode($items_origin, true);
+
+// formamos el parámetro de lista de SKUs a actualizar
+$param_sku ='';
+foreach ($items_origin as $item){
+    $param_sku .= $item['CodigoProd'] . ',';
 }
 
+echo "➜ Obteniendo los ids de los productos... \n";
+// Obtenemos todos los productos de la lista de SKUs
+$products = $woocommerce->get('products/?sku='. $param_sku);
 
-// Preparar los datos para la actualización en lotes
+// Construimos la data en base a los productos recuperados
+$item_data = [];
+foreach($products as $product){
+
+    // Filtramos el array de origen por sku
+    $sku = $product->sku;
+    $search_item = array_filter($items_origin, function($item) use($sku) {
+        return $item['sku'] == $sku;
+    });
+    $search_item = reset($search_item);
+
+    // Formamos el array a actualizar
+    $item_data[] = [
+        'id' => $product->id,
+        'regular_price' => $search_item['price'],
+        'stock_quantity' => $search_item['qty'],
+    ];
+
+}
+
+// Construimos información a actualizar en lotes
 $data = [
-    'update' => $datos_actualizacion,
+    'update' => $item_data,
 ];
 
-// Realizar la actualización en lotes
-$resultado_actualizacion = $woocommerce->post('products/batch', $data);
+echo "➜ Actualización en lote ... \n";
+// Actualización en lotes
+$result = $woocommerce->post('products/batch', $data);
 
-// Verificar el resultado de la actualización
-if (!$resultado_actualizacion) {
+if (! $result) {
     echo("❗Error al actualizar productos \n");
 } else {
     print("✔ Productos actualizados correctamente \n");
 }
+
+
+    //$datos_api_externa = obtener_datos_desde_api_externa(); // Función personalizada para obtener los datos del API
+
+// Obtener todos los productos de WooCommerce
+//$productos_woocommerce = wc_get_products(array('status' => 'publish'));
+
+//foreach ($datos_api_externa as $dato) {
+    //foreach ($productos_woocommerce as $producto) {
+        //if ($producto->get_sku() === $dato['CodigoProd']) {
+            // Producto encontrado, obtener su ID para la actualización
+            //$producto_id = $producto->get_id();
+
+            // Agregar datos para la actualización en lote
+            //$datos_actualizacion[] = [
+                //'regular_price' => $dato['PrecioVta'],
+                //'stock_quantity' => $dato['Cantidad'],
+                // Otros campos para actualizar según sea necesario
+            //];
+        //}
+    //}
+//}
+
+
+// Preparar los datos para la actualización en lotes
+
 
 }
 // Función para manejar los datos de la compra y enviarlos a la API externa

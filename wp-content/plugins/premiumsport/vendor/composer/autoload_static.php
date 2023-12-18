@@ -11,12 +11,20 @@ class ComposerStaticInit60e69bd131e37eb1873cc2d9f83eda1a
         array (
             'Kumo\\Premiumsport\\' => 18,
         ),
+        'A' => 
+        array (
+            'Automattic\\WooCommerce\\' => 23,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Kumo\\Premiumsport\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Automattic\\WooCommerce\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/automattic/woocommerce/src/WooCommerce',
         ),
     );
 
